@@ -28,7 +28,7 @@ const Hero = () => {
                     <img
                         src="/profileimage.jpg" // Corrigido para o caminho correto
                         alt="Imagem de Lucas"
-                        className="lg:w-96 lg:h-96 w-[50%] rounded-full"
+                        className="lg:w-96 w-[50%] rounded-full"
                     />
                 </div>
             </div>
