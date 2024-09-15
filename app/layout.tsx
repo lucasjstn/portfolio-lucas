@@ -10,8 +10,11 @@ import Hero from "@/components/Home/Hero/Hero";
 // });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Portfolio Lucas Oliveira",
   description: "Portfolio de Lucas Oliveira com next js",
+  icons: {
+    icon: "/icon.png",
+  }
 };
 
 export default function RootLayout({

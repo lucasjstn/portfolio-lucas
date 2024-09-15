@@ -11,7 +11,7 @@ const Hero = () => {
                     <div>
                         {/* Subheading */}
                         <h1 className="text-2xl md:text-3xl mb-5 text-gray-900 font-semibold">
-                            I am {BaseInfo.name}
+                            Olá, eu sou {BaseInfo.name}.
                         </h1>
                         {/* Tittle  */}
                         <h1 className="text-bg text-3xl sm:text-4x md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3.5rem] xl:leading-[4rem]">{BaseInfo.position}</h1>
