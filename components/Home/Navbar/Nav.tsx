@@ -2,12 +2,14 @@
 import { navLinks } from "@/constant/constants";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import React, { useEffect, useState } from "react";
+import React  from "react";
 import { HiBars3 } from "react-icons/hi2";
 
 type Props = {
     openNav:()=>void;
 }
+
+const Nav = ({ openNav }: Props) => {
 
     return (
         <div className="fixed h-[12vh] z-[10] bg-blue-950 w-full">
