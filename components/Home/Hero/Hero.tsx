@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#dedede] overflow-hidden relative">
+        <div id="#aboutme" className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#dedede] overflow-hidden relative">
             <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
                 {/* Container que usa flexbox para alinhar o conteúdo */}
                 <div className="flex flex-col lg:flex-row items-center gap-12  p-10 rounded-lg">

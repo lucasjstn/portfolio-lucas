@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Hero from "@/components/Home/Hero/Hero";
+import Skills from "@/components/Home/Skills/Skills";
 
 // const font = Sora({
 //   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -26,6 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <ResponsiveNav />
       <Hero />
+      <Skills />
       <body>{children}</body>
     </html>
   );
